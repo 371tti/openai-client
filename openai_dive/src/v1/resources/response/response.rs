@@ -334,7 +334,6 @@ pub enum ResponseStreamEvent {
         sequence_number: u32,
         item_id: String,
         output_index: usize,
-        name: String,
         arguments: String,
     },
 
