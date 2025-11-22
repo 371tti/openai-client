@@ -41,7 +41,6 @@ pub struct FunctionToolCall {
     pub call_id: String,
     pub name: String,
     pub arguments: String,
-    pub status: InputItemStatus,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
